@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.search-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+label{
+    font-weight: 500;
+}
+
+input{
+    font-size: 1rem;
+}
+
+.users{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 0.7rem;
+    margin-top: 2rem;
+}
+
+.user-card{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 0.7rem;
+}
+
+.header{
+    margin-bottom: 0.5rem;
+}
+
+.body{
+    font-size: 0.85rem;
+    color: #777;
+}
+
+.hide {
+    display: none;
+}
